@@ -24,7 +24,6 @@ function nextSlide() {
 $(document).ready(function(){
   $('.scrollspy').scrollSpy();
 });
-
 //Tooltip
 $(document).ready(function(){
   $('.tooltipped').tooltip({delay: 50});

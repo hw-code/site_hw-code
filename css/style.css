@@ -36,7 +36,6 @@ nav .brand-logo {
   position: unset;
 }
 nav .brand-logo img{
-
   margin: 10px;
 }
 nav li a:hover {
@@ -53,7 +52,7 @@ nav.changeColor li a {
   color: #6E00FF;
 }
 .section.scrollspy {
-  height: 600px;
+  height: calc(100vh + 80px);
 }
 .carousel {
   width: 65%;
