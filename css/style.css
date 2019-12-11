@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lilita+One|Saira+Semi+Condensed&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+body {
+  height: 100vh;
+  margin: 0;
+}
+.bg-image {
+  background-image: url("../image/5570.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: blur(0.5px);
+  position: absolute;
+  opacity: 0.9;
+  height: 100%;
+  width: 100%;
+}
+nav {
+  box-shadow: 0 2px 2px 0 rgb(0, 0, 0), 0 3px 1px -2px rgb(0, 0, 0), 0 1px 5px 0 rgb(0, 0, 0);
+  background: #ffffff20;
+  position: sticky;
+  padding: 0 20px;
+  top: 0;
+}
+nav li a {
+  text-transform: uppercase;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 1.6em;
+  color: white;
+  font-weight: bold;
+}
+nav .brand-logo {
+  display: contents;
+  position: unset;
+}
+nav .brand-logo img{
+  margin: 10px;
+}
+nav li a:hover {
+  border-bottom: 3px solid #6E00FF;
+}
+nav li a.active {
+  border-bottom: 3px solid #B70EF2;
+}
+.changeColor {
+  background: #dcdcdc;
+  z-index: 99;
+}
+.section.scrollspy {
+  height: 600px;
+}
+.carousel {
+  width: 65%;
+  height: 400px;
+  margin: 50px auto;
+}
+.carousel.carousel-slider .carousel-item {
+  padding: 10px;
+}
+.carousel.carousel-slider div.carousel-fixed-item {
+  bottom: 100px;
+}
+#quemSomos .carousel h2 {
+  font-family: 'Lilita One', cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 42px;
+}
+#quemSomos .carousel.carousel-slider .carousel-item p.white-text {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+  text-align: left;
+  font-size: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+.footer {
+  position: relative;
+}
+.section .footer .icon-group {
+  display: flex;
+  justify-content: center;
+  align-self: auto;
+}
+.section .footer .icon-group a {
+  margin: 0 auto;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.1);
+}
+.section .footer .icon-group a i {
+  color: white;
+  font-size: 52px;
+}
