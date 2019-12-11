@@ -11,7 +11,10 @@ $(function() {
 });
 // Carousel
 $(document).ready(function(){
-  $('.carousel.carousel-slider').carousel({fullWidth: true, duration: 500, pause: "hover"});
+  $('.carousel.carousel-slider').carousel({fullWidth: true});
+  setInterval(function() {
+    $('.carousel').carousel('next');
+  }, 6500);
 });
 // Next Slide
 function nextSlide() {

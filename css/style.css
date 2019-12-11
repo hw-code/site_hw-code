@@ -36,17 +36,21 @@ nav .brand-logo {
   position: unset;
 }
 nav .brand-logo img{
+
   margin: 10px;
 }
 nav li a:hover {
   border-bottom: 3px solid #6E00FF;
 }
 nav li a.active {
-  border-bottom: 3px solid #B70EF2;
+  border-bottom: 3px solid #9c27b0;
 }
 .changeColor {
   background: #dcdcdc;
   z-index: 99;
+}
+nav.changeColor li a {
+  color: #6E00FF;
 }
 .section.scrollspy {
   height: 600px;
