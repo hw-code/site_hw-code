@@ -13,13 +13,11 @@
 </head>
 
 <body>
-  <div class="bg-image"></div>
-  
   <nav>
     <div class="nav-wrapper">
       <div class="row col s12">
         <a href="#" class="brand-logo">
-          <img src="image/logo.png" width="10%" />
+          <img src="image/logo.png" width="130px" />
         </a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="#quemSomos" class="active">quem somos</a></li>
@@ -30,9 +28,9 @@
     </div>
   </nav>
 
-  <div class="row">
-    <div class="col s12">
-      <div id="quemSomos" class="section scrollspy">
+  <div id="quemSomos" class="section scrollspy">
+    <div class="row">
+      <div class="col s12" id="contend">
         <div class="carousel carousel-slider center" data-indicators="true">
           <div class="carousel-fixed-item center">
             <a class="btn waves-effect purple" onclick="nextSlide()">Next</a>
@@ -54,27 +52,36 @@
               varius nunc. Suspendisse consequat efficitur dui, ac pulvinar risus eleifend sed.</p>
           </div>
         </div>
+      </div>
+      <div class="col s12" id="contend">
         <div class="footer">
-          <div class="row">
-            <div class="col s12">
-              <div class="icon-group">
-                <a href="#projetos" class="tooltipped" data-position="top" data-delay="50" data-tooltip="ir para projetos">
-                  <i class="material-icons">keyboard_arrow_down</i>
-                </a>
-              </div>
-            </div>
+          <div class="icon-group">
+            <a href="#projetos" class="tooltipped" data-position="top" data-delay="50" data-tooltip="ir para projetos">
+              <i class="material-icons">keyboard_arrow_down</i>
+            </a>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
-      <div id="projetos" class="section scrollspy">
-        <p>Content </p>
-      </div>
-
-      <div id="contato" class="section scrollspy">
-        <p>Content </p>
+  <div id="projetos" class="section scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="card-panel teal">
+            <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively. I am similar to what is called a panel
+              in other frameworks.
+            </span>
+          </div>
+        </div>
       </div>
     </div>
+  </div>
+
+  <div id="contato" class="section scrollspy">
+    <p>Content </p>
   </div>
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
